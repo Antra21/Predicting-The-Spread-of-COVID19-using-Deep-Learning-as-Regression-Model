@@ -72,6 +72,7 @@ model.add(Dense(20, activation='relu'))
 model.add(Dense(15, activation='relu'))
 model.add(Dense(10, activation='relu'))
 model.add(Dense(5, activation='relu'))
+model.add(Dense(2, activation='relu'))
 model.add(Dense(1, activation='linear'))
 
 model.summary()
